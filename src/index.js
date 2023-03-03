@@ -6,6 +6,8 @@ import "./assets/css/grid.css";
 import Layout from "./components/layout/Layout";
 import reportWebVitals from "./reportWebVitals";
 
+document.title = "Karen's CRM";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
    <React.StrictMode>
